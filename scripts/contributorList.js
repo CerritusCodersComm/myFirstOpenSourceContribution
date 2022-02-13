@@ -9,6 +9,10 @@ let contributors = [{
     "name": "Ishir Agrawal"
 },
 {
+"github": "https://github.com/beans9926",
+    "name": "Sarthak Gulhane"
+},
+{
     "github": "https://github.com/anamansari062",
     "name": "Anam Ansari"
 },
