@@ -3,6 +3,7 @@
 Find the project website here : https://cerrituscoderscomm.github.io/myFirstOpenSourceContribution/ <br>
 Make your own contribution and add your name here !! <br>
 
+Thanks to [jwala](https://github.com/jwalapc/), for letting us use the code, go give him a follow :)
 Hi there, let me walk you on how you can make your first Open-Source Contribution using this very project.
 
 # How to contribute in this project ?
