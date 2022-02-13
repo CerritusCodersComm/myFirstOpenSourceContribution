@@ -1,6 +1,6 @@
 # My First Open Source Contribution
 
-Find the project website here : https://jwalapc.github.io/firstcontribution/ <br>
+Find the project website here : https://cerrituscoderscomm.github.io/myFirstOpenSourceContribution/ <br>
 Make your own contribution and add your name here !! <br>
 
 Hi there, let me walk you on how you can make your first Open-Source Contribution using this very project.
@@ -24,13 +24,10 @@ Once the repository is in your account, you can either make changes/edit to the 
 
 ---
 
-## Step 3: Download Git, VScode and set it up
+## Step 3: Download Git
 
-As we are using VScode editor for editing the code, download the following. <br>
+Download the Git to get started. <br>
 Git : https://git-scm.com/downloads <br>
-VScode : https://code.visualstudio.com/download <br>
-Video on how to set it up : https://www.youtube.com/watch?v=6cB0tB-nrB0
-
 ---
 
 ## Step 4: Clone the repository
