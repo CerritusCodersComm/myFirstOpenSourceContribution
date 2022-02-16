@@ -4,7 +4,11 @@ const fetchJSON = (url) => {
     var xhr = new XMLHttpRequest();
     xhr.open("GET", url, false); // Not using asynchronous, why? idk 🤷‍♂️ !
     xhr.send();
-    return JSON.parse(xhr.responseText);
+    try {
+        return JSON.parse(xhr.responseText);
+    } catch (err) {
+        return xhr.responseText;
+    }
 };
 
 var contributors_raw = fetchJSON(repositoryURL);

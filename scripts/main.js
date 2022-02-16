@@ -25,4 +25,8 @@ window.onload = function () {
         console.log(data.name);
         if (data.name) document.getElementById("user-" + contributors[i].username).innerHTML = `<b>${data.name}</b>`;
     }
+
+    var thoughts = "https://cdn.jsdelivr.net/gh/CerritusCodersComm/myFirstOpenSourceContribution@main/THOUGHTS.md";
+    var parsedThoughts = marked.parse(fetchJSON(thoughts));
+    document.getElementById('thoughts').innerHTML = parsedThoughts;
 };
