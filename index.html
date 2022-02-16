@@ -22,6 +22,12 @@
     <title>My First Open-Source Contribution</title>
 
     <link rel="stylesheet" href="./styles/main.min.css">
+    <style>
+        #thoughts img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -34,12 +40,19 @@
         <!-- your content here -->
     </table>
 
+    <div id="" style="background-color: white;margin: 2em 2em 10em 2em;border-radius: 14px;">
+        <div id="thoughts" style="padding: 2em 4em 2em 4em;word-wrap: break-word;">
+
+        </div>
+    </div>
+
     <div class="illustration">
         <img src="./images/devImage.svg" alt="dev illustration">
     </div>
 
 
     <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js" integrity="sha512-hzyXu3u+VDu/7vpPjRKFp9w33Idx7pWWNazPm+aCMRu26yZXFCby1gn1JxevVv3LDwnSbyKrvLo3JNdi4Qx1ww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./scripts/contributorList.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
